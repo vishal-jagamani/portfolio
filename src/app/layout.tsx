@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import localFont from 'next/font/local';
 import './globals.css';
 import { ThemeProvider } from '@/components/theme-provider';
+import GoogleAnalytics from '@/components/GoogleAnalytics';
 
 const geistSans = localFont({
     src: './fonts/GeistVF.woff',
@@ -22,6 +23,7 @@ export const metadata: Metadata = {
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
     return (
         <html lang="en">
+            <GoogleAnalytics />
             <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
                 <ThemeProvider attribute="class" defaultTheme="dark" enableSystem disableTransitionOnChange>
                     {children}
