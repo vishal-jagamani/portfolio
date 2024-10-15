@@ -37,3 +37,4 @@ next-env.d.ts
 
 # User defined
 package-lock.json
+.env
