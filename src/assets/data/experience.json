@@ -1,0 +1,72 @@
+[
+    {
+        "id": 2,
+        "companyName": "PortDev India Pvt. Ltd.",
+        "role": "Software Developer",
+        "duration": "July 2022 - Present",
+        "description": "Led the development of full-stack applications using React and Node.js, delivering optimized solutions that improved user engage. Implemented Elasticsearch for data search, resulting in a 40% reduction in data retrieval time. Developed secure RESTful APIs using Node.js and MongoDB, integrating JWT for authentication and authorization.",
+        "techStack": [
+            {
+                "id": 1,
+                "name": "ReactJS"
+            },
+            {
+                "id": 2,
+                "name": "NodeJS"
+            },
+            {
+                "id": 3,
+                "name": "Express"
+            },
+            {
+                "id": 6,
+                "name": "Typescript"
+            },
+            {
+                "id": 4,
+                "name": "MySQL"
+            },
+            {
+                "id": 5,
+                "name": "Elasticsearch"
+            },
+            {
+                "id": 6,
+                "name": "LinkedIn API"
+            },
+            {
+                "id": 7,
+                "name": "Shopify API"
+            }
+        ]
+    },
+    {
+        "id": 1,
+        "companyName": "PortDev India Pvt. Ltd.",
+        "role": "Software Developer",
+        "duration": "March - June 2022",
+        "description": "Participated in internship programs, gaining hands-on experience in full-stack development with projects involving React, Node.js with Express.js and MySQL database demonstrating versatility and skill in diverse technology stacks.",
+        "techStack": [
+            {
+                "id": 1,
+                "name": "ReactJS"
+            },
+            {
+                "id": 2,
+                "name": "NodeJS"
+            },
+            {
+                "id": 3,
+                "name": "Express"
+            },
+            {
+                "id": 4,
+                "name": "MySQL"
+            },
+            {
+                "id": 5,
+                "name": "Java"
+            }
+        ]
+    }
+]
