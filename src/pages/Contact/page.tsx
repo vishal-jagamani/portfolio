@@ -12,7 +12,7 @@ const Contact: React.FC = () => {
                     <p className="my-4 text-base font-semibold md:text-lg">🚀 Contact me for your next Project or Query!</p>
                     <div className="flex flex-col justify-center">
                         <p className="my-4">
-                            While I&apos;m currently dedicated to my full-time role at PortDev India Pvt. Ltd., but I&apos;m always excited about
+                            While I&apos;m currently dedicated to my full-time role at PortDev India Pvt. Ltd. (Portqii), but I&apos;m always excited about
                             collaborating on side projects and queries in web development, cloud infrastructure, or software architecture. Need
                             assistance or collaboration? Let&apos;s connect!
                         </p>
