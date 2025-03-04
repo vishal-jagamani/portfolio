@@ -1,6 +1,7 @@
 import projects from '@/assets/data/projects.json';
 import Portfolio_Image from '@/assets/images/project-portfolio.png';
 import Soundtrack_Image from '@/assets/images/project-soundtrack.png';
+import Vinay_Gouri_Portfolio_Image from '@/assets/images/project-vinay-gouri-portfolio.png';
 import { Circle, GitFork, SquareArrowOutUpRight } from 'lucide-react';
 import Image from 'next/image';
 import React from 'react';
@@ -16,6 +17,11 @@ const Images = [
         name: 'Soundtrack',
         image: Soundtrack_Image,
     },
+    {
+        id: 3,
+        name: 'Vinay Gouri Portfolio',
+        image: Vinay_Gouri_Portfolio_Image,
+    },
 ];
 
 const Projects: React.FC = () => {
@@ -23,7 +29,7 @@ const Projects: React.FC = () => {
         <>
             <div className="flex flex-col">
                 <div className="flex items-center">
-                    <p className="font-League_Spartan text-2xl font-semibold tracking-widest text-portfolio-blue">Projects</p>
+                    <p className="font-League_Spartan text-2xl font-bold tracking-widest text-portfolio-blue">Projects</p>
                     <span className="ml-2 mt-1 h-[1px] w-full bg-portfolio-darkBlue"></span>
                 </div>
                 <div className="mt-6 space-y-10">
@@ -41,10 +47,14 @@ const Projects: React.FC = () => {
                                         />
                                         {item?.id > 1 ? (
                                             <div className="my-4 flex flex-row justify-between px-20 md:px-4">
-                                                <GitFork
-                                                    className="cursor-pointer hover:text-portfolio-blue"
-                                                    onClick={() => window.open(item?.githubRepoLink)}
-                                                />
+                                                {item?.githubRepoLink ? (
+                                                    <GitFork
+                                                        className="cursor-pointer hover:text-portfolio-blue"
+                                                        onClick={() => window.open(item?.githubRepoLink)}
+                                                    />
+                                                ) : (
+                                                    <div></div>
+                                                )}
                                                 <SquareArrowOutUpRight
                                                     className="cursor-pointer hover:text-portfolio-blue"
                                                     onClick={() => window.open(item?.projectLink)}
