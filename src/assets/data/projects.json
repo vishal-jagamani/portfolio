@@ -39,6 +39,7 @@
     {
         "id": 2,
         "name": "Soundtrack",
+        "description": "A full-stack web application that replicates Spotify's search and browse features. Users can explore and discover music by searching for songs, albums, artists, and playlists. The application includes user authentication with JWT for secure access and implements email OTP verification for account verification purposes.",
         "githubRepoLink": "https://github.com/vishal-jagamani/soundtrack",
         "projectLink": "https://soundtrack-listen.vercel.app",
         "techStack": [
