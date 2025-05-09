@@ -2,13 +2,13 @@ import React from 'react';
 
 const about = [
     {
-        text: `I am a Software Developer specialized in crafting dynamic web applications with a user-centric design approach and optimal database management. With 2+ years of professional experience, I bring a strong background in React, Node.js, MySQL, and Elasticsearch, along with proficiency in a range of programming languages and tools.`,
+        text: `I'm a Software Developer with over 2.8 years of experience in building scalable, user-centric web applications. I specialize in developing seamless frontend interfaces and efficient backend services using React, Node.js, Express, and TypeScript, with strong support from robust databases like MySQL and Elasticsearch.`,
     },
     {
-        text: `My technical skills include expertise in Javascript, HTML, CSS and Python, complemented by frameworks and libraries such as Bootstrap, Python Flask, NodeJS, ReactJS, React Native, and React Redux/RTK Query. I have proficient skills in managing data efficiently using MySQL and Elasticsearch, along with a strong understanding of version control using GIT.`,
+        text: `My core skill set includes JavaScript, TypeScript, HTML, CSS, and Python, along with hands-on experience using frameworks and libraries such as ReactJS, Next.js, React Native, Redux/RTK Query, Bootstrap, Node.js, Express, and Flask. I'm well-versed in database management with MySQL and Elasticsearch, and I follow modern development workflows using Git for version control.`,
     },
     {
-        text: `Explore my portfolio to learn more about my projects, technical skills, and contributions to the field of software development. Let's connect and discuss how I can contribute to your next project or collaborate on exciting opportunities!`,
+        text: `Explore my portfolio to learn more about the projects I've built, the tools I've worked with, and how I approach solving real-world problems through software. I'm always open to collaborating on meaningful projects or joining forward-thinking teams—let’s connect!`,
     },
 ];
 
