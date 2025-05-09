@@ -1,5 +1,6 @@
 import React from 'react';
 import data from '@/assets/data/experience.json';
+import { Dot } from 'lucide-react';
 
 const Experience: React.FC = () => {
     return (
@@ -21,7 +22,16 @@ const Experience: React.FC = () => {
                                         <p className="text-2xl font-semibold tracking-wider text-primary">{item?.role}</p>
                                         <p className="font-League_Spartan text-lg font-medium tracking-wider text-primary">{item?.companyName}</p>
                                         <p className="font-Geologica mt-3 text-base font-thin leading-5 text-primary md:text-base md:font-thin">
-                                            {item?.description}
+                                            <ul className="list-none pl-0">
+                                                {item?.description.map((point, index) => (
+                                                    <li key={index} className="mb-2 flex">
+                                                        <span>
+                                                            <Dot />
+                                                        </span>
+                                                        <span>{point}</span>
+                                                    </li>
+                                                ))}
+                                            </ul>
                                         </p>
                                         <div className="flex flex-wrap">
                                             {item?.techStack?.map((val) => {

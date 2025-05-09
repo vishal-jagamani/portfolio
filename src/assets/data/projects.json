@@ -2,7 +2,7 @@
     {
         "id": 1,
         "name": "Portfolio",
-        "description": "A responsive web application showcasing frontend design, dynamic content integration, and modern UI/UX principles. It features a portfolio showcase section and a contact form for easy communication, all optimized for smooth performance.",
+        "description": "Developed a responsive frontend using React, TypeScript, Vite, and ShadcnUI. Implemented SEO best practices and deployed the site on Vercel for optimal performance.",
         "githubRepoLink": "",
         "projectLink": "https://vishaljagamani.vercel.app",
         "techStack": [
@@ -39,7 +39,7 @@
     {
         "id": 2,
         "name": "Soundtrack",
-        "description": "A full-stack web application that replicates Spotify's search and browse features. Users can explore and discover music by searching for songs, albums, artists, and playlists. The application includes user authentication with JWT for secure access and implements email OTP verification for account verification purposes.",
+        "description": "Built a full-stack application integrating the Spotify API for browsing music. Developed secure backend services using Node.js, Express, and JWT-based authentication. Utilized MongoDB for data persistence and React with Vite for an interactive UI.",
         "githubRepoLink": "https://github.com/vishal-jagamani/soundtrack",
         "projectLink": "https://soundtrack-listen.vercel.app",
         "techStack": [
@@ -93,7 +93,9 @@
     {
         "id": 3,
         "name": "Vinay Gouri Portfolio",
-        "description": "A freelance project for Vinay Gouri, a Senior Product Designer, to build his portfolio website. The website showcases his design work, experience, and projects in a visually appealing and professional manner.",
+        "description": [
+            "A freelance project for Vinay Gouri, a Senior Product Designer, to build his portfolio website. The website showcases his design work, experience, and projects in a visually appealing and professional manner."
+        ],
         "projectLink": "https://vinay-gouri.vercel.app",
         "techStack": [
             {

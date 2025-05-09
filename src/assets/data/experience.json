@@ -4,7 +4,13 @@
         "companyName": "PortDev India Pvt. Ltd. (Portqii)",
         "role": "Software Developer",
         "duration": "July 2022 - Present",
-        "description": "Led the development of full-stack applications using React and Node.js, delivering optimized solutions that improved user engage. Implemented Elasticsearch for data search, resulting in a 40% reduction in data retrieval time. Developed secure RESTful APIs using Node.js and MongoDB, integrating JWT for authentication and authorization.",
+        "description": [
+            "Developed and maintained full-stack web applications using Node.js, Express, TypeScript, and React.",
+            "Built and optimized RESTful APIs with Express; implemented secure authentication using JWT and Auth0.",
+            "Improved application performance by integrating Elasticsearch, reducing data retrieval time by 40%.",
+            "Created scalable RESTful APIs with Express, secured using JWT and Auth0.",
+            "Created scalable RESTful APIs with Express, secured using JWT and Auth0."
+        ],
         "techStack": [
             {
                 "id": 1,
@@ -45,7 +51,10 @@
         "companyName": "PortDev India Pvt. Ltd. (Portqii)",
         "role": "Software Developer (Intern)",
         "duration": "March - June 2022",
-        "description": "Participated in internship programs, gaining hands-on experience in full-stack development with projects involving React, Node.js with Express.js and MySQL database demonstrating versatility and skill in diverse technology stacks.",
+        "description": [
+            "Built a full-stack To-Do application using React, Node.js, Express, and MySQL during training; practiced REST API development and authentication.",
+            "Contributed to a production-level feature in an enterprise app using Java Spring Boot and MySQL, collaborating with the backend team in Agile sprints."
+        ],
         "techStack": [
             {
                 "id": 1,

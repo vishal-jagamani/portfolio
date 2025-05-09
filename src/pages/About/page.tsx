@@ -2,13 +2,13 @@ import React from 'react';
 
 const about = [
     {
-        text: `I am a Software Developer with a strong focus on building dynamic web applications that prioritize user experience and efficient database management. With over 2.5 years of professional experience, I specialize in React, Node.js, MySQL, and MongoDB, along with a broad skill set spanning various programming languages and development tools.`,
+        text: `I'm a Software Developer with over 2.8 years of experience in building scalable, user-centric web applications. I specialize in developing seamless frontend interfaces and efficient backend services using React, Node.js, Express, and TypeScript, with strong support from robust databases like MySQL and Elasticsearch.`,
     },
     {
-        text: `My technical expertise includes JavaScript, HTML, CSS, and Python, complemented by frameworks and libraries such as Node.js, React.js, React Native, React Redux/RTK Query and Flask. I have hands-on experience in data management with MySQL and MongoDB and a solid understanding of version control with Git.`,
+        text: `My core skill set includes JavaScript, TypeScript, HTML, CSS, and Python, along with hands-on experience using frameworks and libraries such as ReactJS, Next.js, React Native, Redux/RTK Query, Bootstrap, Node.js, Express, and Flask. I'm well-versed in database management with MySQL and Elasticsearch, and I follow modern development workflows using Git for version control.`,
     },
     {
-        text: `Explore my portfolio to see my projects, technical expertise, and contributions to software development. Feel free to connect, I'm always open to discussing new opportunities and collaborations!!!`,
+        text: `Explore my portfolio to learn more about the projects I've built, the tools I've worked with, and how I approach solving real-world problems through software. I'm always open to collaborating on meaningful projects or joining forward-thinking teams—let’s connect!`,
     },
 ];
 

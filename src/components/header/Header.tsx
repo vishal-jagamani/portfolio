@@ -15,7 +15,7 @@ const Social_Links = [
     { index: 4, name: 'Twitter', link: 'https://twitter.com/vishal_jagamani', icon: <Twitter size={32} /> },
 ];
 
-const Resume_URL = 'https://drive.google.com/file/d/1TeZehh84DOvi6mKx_2LgNXjKsCIfGTaX/view';
+const Resume_URL = 'https://drive.google.com/file/d/1hOOEC6Rk-inRsIpEw4HVhMXpzawbw2i1/view';
 
 const TechStack: Tech[] = [
     { id: 1, name: 'React' },
