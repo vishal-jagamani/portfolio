@@ -2,7 +2,7 @@ import React from 'react';
 
 const about = [
     {
-        text: `I'm a Software Developer with over 2.8 years of experience in building scalable, user-centric web applications. I specialize in developing seamless frontend interfaces and efficient backend services using React, Node.js, Express, and TypeScript, with strong support from robust databases like MySQL and Elasticsearch.`,
+        text: `I'm a Software Developer with 3 years of experience in building scalable, user-centric web applications. I specialize in developing seamless frontend interfaces and efficient backend services using React, Node.js, Express, and TypeScript, with strong support from robust databases like MySQL and Elasticsearch.`,
     },
     {
         text: `My core skill set includes JavaScript, TypeScript, HTML, CSS, and Python, along with hands-on experience using frameworks and libraries such as ReactJS, Next.js, React Native, Redux/RTK Query, Bootstrap, Node.js, Express, and Flask. I'm well-versed in database management with MySQL and Elasticsearch, and I follow modern development workflows using Git for version control.`,
