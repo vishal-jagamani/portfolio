@@ -111,11 +111,11 @@ const Header: React.FC = () => {
                         className="cursor-pointer text-primary hover:text-portfolio-blue"
                         onClick={() => (window.location.href = 'mailto:vishaljagamani20@gmail.com')}
                     />
-                    <SquareArrowOutUpRight
+                    {/* <SquareArrowOutUpRight
                         size={29}
                         className="cursor-pointer text-primary hover:text-portfolio-blue"
                         onClick={() => window.open(Resume_URL)}
-                    />
+                    /> */}
                 </div>
             </div>
         </div>
