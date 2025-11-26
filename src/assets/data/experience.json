@@ -1,9 +1,45 @@
 [
     {
+        "id": 3,
+        "companyName": "Nineleaps",
+        "role": "Software Development Engineer - I",
+        "duration": "July 2025 - Present",
+        "description": [
+            "Developed and maintained full-stack web applications using Node.js, Express, TypeScript, and React.",
+            "Built and optimized RESTful APIs with Express"
+        ],
+        "techStack": [
+            {
+                "id": 1,
+                "name": "ReactJS"
+            },
+            {
+                "id": 2,
+                "name": "NextJS"
+            },
+            {
+                "id": 3,
+                "name": "NodeJS"
+            },
+            {
+                "id": 4,
+                "name": "Express"
+            },
+            {
+                "id": 5,
+                "name": "Typescript"
+            },
+            {
+                "id": 6,
+                "name": "DynamoDB"
+            }
+        ]
+    },
+    {
         "id": 2,
         "companyName": "PortDev India Pvt. Ltd.",
         "role": "Software Developer",
-        "duration": "July 2022 - Present",
+        "duration": "July 2022 - July 2025",
         "description": [
             "Developed and maintained full-stack web applications using Node.js, Express, TypeScript, and React.",
             "Built and optimized RESTful APIs with Express; implemented secure authentication using JWT and Auth0.",

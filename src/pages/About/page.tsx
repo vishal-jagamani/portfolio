@@ -2,7 +2,7 @@ import React from 'react';
 
 const about = [
     {
-        text: `I'm a Software Developer with over 2.8 years of experience in building scalable, user-centric web applications. I specialize in developing seamless frontend interfaces and efficient backend services using React, Node.js, Express, and TypeScript, with strong support from robust databases like MySQL and Elasticsearch.`,
+        text: `I'm a Software Development Engineer with 3+ years of experience in building scalable, user-centric web applications. I specialize in developing seamless frontend interfaces and efficient backend services using React, Node.js, Express, and TypeScript, with strong support from robust databases like MySQL and Elasticsearch.`,
     },
     {
         text: `My core skill set includes JavaScript, TypeScript, HTML, CSS, and Python, along with hands-on experience using frameworks and libraries such as ReactJS, Next.js, React Native, Redux/RTK Query, Bootstrap, Node.js, Express, and Flask. I'm well-versed in database management with MySQL and Elasticsearch, and I follow modern development workflows using Git for version control.`,
@@ -25,7 +25,7 @@ const About: React.FC = () => {
                         <>
                             <div className="mt-2">
                                 {/* <ScrambleText text={item?.text} className="text-sm font-medium tracking-wider md:text-base" scrambleOptions={null} /> */}
-                                <p className="text-base font-thin tracking-wider text-primary md:text-base md:font-thin">{item?.text}</p>
+                                <p className="text-base font-thin tracking-wider text-gray-300 md:text-base md:font-thin">{item?.text}</p>
                             </div>
                         </>
                     );

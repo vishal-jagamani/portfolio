@@ -22,10 +22,10 @@ const TechStack: Tech[] = [
     { id: 2, name: 'NodeJS' },
     { id: 3, name: 'Express' },
     { id: 4, name: 'Typescript' },
-    { id: 5, name: 'React Native' },
+    { id: 5, name: 'NextJS' },
     { id: 6, name: 'React Redux' },
     { id: 7, name: 'MongoDB' },
-    { id: 8, name: 'Elasticsearch' },
+    { id: 8, name: 'DynamoDB' },
 ];
 
 const Header: React.FC = () => {
@@ -62,14 +62,14 @@ const Header: React.FC = () => {
                 <p className="text-primary">Online.</p>
             </div>
             <div className="space-y-2">
-                <p ref={nameTextRef} className="text-2xl font-bold tracking-[2px] text-primary md:text-3xl md:tracking-[5px]">
+                <p ref={nameTextRef} className="text-2xl font-bold tracking-[2px] text-gray-400 md:text-3xl md:tracking-[5px]">
                     VISHAL JAGAMANI
                 </p>
                 <div className="flex items-center">
-                    <p className="font-Geologica -mt-2 text-nowrap text-[2.2rem] font-bold tracking-wide text-portfolio-blue md:text-[4rem]">
-                        Software Developer
+                    <p className="font-Geologica -mt-2 text-nowrap text-[2.2rem] font-bold tracking-wide text-portfolio-blue md:text-[2.5rem]">
+                        Software Development Engineer - I
                     </p>
-                    <span className="ml-4 mt-3 h-1 w-full bg-portfolio-blue"></span>
+                    <span className="ml-4 mt-3 h-[1px] w-full bg-portfolio-blue"></span>
                 </div>
             </div>
             <div className="flex space-x-4">
