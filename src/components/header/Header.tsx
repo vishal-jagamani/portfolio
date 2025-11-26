@@ -1,4 +1,4 @@
-import { Circle, Github, Instagram, Linkedin, Mail, SquareArrowOutUpRight, Twitter } from 'lucide-react';
+import { Circle, Github, Instagram, Linkedin, Mail, Twitter } from 'lucide-react';
 import React, { useEffect, useState } from 'react';
 import { useScramble } from 'use-scramble';
 import ScrambleText from '../ScrambleText';
@@ -15,7 +15,7 @@ const Social_Links = [
     { index: 4, name: 'Twitter', link: 'https://twitter.com/vishal_jagamani', icon: <Twitter size={32} /> },
 ];
 
-const Resume_URL = 'https://drive.google.com/file/d/1hOOEC6Rk-inRsIpEw4HVhMXpzawbw2i1/view';
+// const Resume_URL = 'https://drive.google.com/file/d/1hOOEC6Rk-inRsIpEw4HVhMXpzawbw2i1/view';
 
 const TechStack: Tech[] = [
     { id: 1, name: 'React' },
@@ -111,11 +111,11 @@ const Header: React.FC = () => {
                         className="cursor-pointer text-primary hover:text-portfolio-blue"
                         onClick={() => (window.location.href = 'mailto:vishaljagamani20@gmail.com')}
                     />
-                    <SquareArrowOutUpRight
+                    {/* <SquareArrowOutUpRight
                         size={29}
                         className="cursor-pointer text-primary hover:text-portfolio-blue"
                         onClick={() => window.open(Resume_URL)}
-                    />
+                    /> */}
                 </div>
             </div>
         </div>
