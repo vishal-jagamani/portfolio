@@ -3,7 +3,7 @@ import React from 'react';
 const Contact: React.FC = () => {
     return (
         <>
-            <div className="">
+            <div className="text-gray-300">
                 <div className="flex items-center">
                     <p className="font-League_Spartan text-2xl font-semibold tracking-widest text-portfolio-blue">Contact</p>
                     <span className="ml-2 mt-1 h-[1px] w-full bg-portfolio-darkBlue"></span>

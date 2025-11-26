@@ -9,7 +9,7 @@ const DotBackground: React.FC<props> = ({ className }) => {
     return (
         <div
             className={cn(
-                'fixed flex h-screen w-full items-center justify-center bg-white bg-dot-black/[0.4] dark:bg-black dark:bg-dot-white/[0.4]',
+                'fixed flex h-screen w-full items-center justify-center bg-white bg-dot-black/[0.4] dark:bg-black dark:bg-dot-white/[0.4] opacity-70',
                 className,
             )}
         >

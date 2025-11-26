@@ -27,7 +27,7 @@ const Images = [
 const Projects: React.FC = () => {
     return (
         <>
-            <div className="flex flex-col">
+            <div className="flex flex-col text-gray-300">
                 <div className="flex items-center">
                     <p className="font-League_Spartan text-2xl font-bold tracking-widest text-portfolio-blue">Projects</p>
                     <span className="ml-2 mt-1 h-[1px] w-full bg-portfolio-darkBlue"></span>
