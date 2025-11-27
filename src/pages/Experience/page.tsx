@@ -7,7 +7,7 @@ const Experience: React.FC = () => {
         <>
             <div className="flex flex-col text-gray-300">
                 <div className="flex items-center">
-                    <p className="font-League_Spartan text-2xl font-semibold tracking-widest text-portfolio-blue">Experience</p>
+                    <p className="font-League_Spartan text-xl font-semibold tracking-widest text-portfolio-blue md:text-2xl">Experience</p>
                     <span className="ml-2 mt-1 h-[1px] w-full bg-portfolio-darkBlue"></span>
                 </div>
                 <div className="mt-6 space-y-8">
@@ -19,9 +19,9 @@ const Experience: React.FC = () => {
                                         <p className="text-base text-muted-foreground md:text-xl">{item?.duration}</p>
                                     </div>
                                     <div className="md:w-4/5">
-                                        <p className="text-2xl font-semibold tracking-wider text-primary">{item?.role}</p>
-                                        <p className="font-League_Spartan text-lg font-medium tracking-wider text-primary">{item?.companyName}</p>
-                                        <p className="font-Geologica mt-3 text-base font-thin leading-5 text-primary md:text-base md:font-thin">
+                                        <p className="text-lg font-semibold tracking-wider text-primary md:text-2xl">{item?.role}</p>
+                                        <p className="font-League_Spartan text-base font-medium tracking-wider text-primary md:text-lg">{item?.companyName}</p>
+                                        <p className="font-Geologica mt-3 text-sm font-thin leading-5 text-primary md:text-base md:font-thin">
                                             <ul className="list-none pl-0">
                                                 {item?.description.map((point, index) => (
                                                     <li key={index} className="mb-2 flex">
@@ -41,7 +41,7 @@ const Experience: React.FC = () => {
                                                             key={val?.id}
                                                             className="mr-2 mt-3 rounded-full bg-portfolio-darkBlue bg-opacity-60 px-3 py-1 md:mr-3"
                                                         >
-                                                            <p className="text-nowrap text-sm font-semibold tracking-wide text-primary opacity-100 dark:text-portfolio-blue md:text-sm">
+                                                            <p className="text-nowrap text-xs font-semibold tracking-wide text-primary opacity-100 dark:text-portfolio-blue md:text-sm">
                                                                 {val?.name}
                                                             </p>
                                                         </div>
