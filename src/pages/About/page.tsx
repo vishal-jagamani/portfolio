@@ -17,7 +17,7 @@ const About: React.FC = () => {
         <>
             <div className="flex flex-col">
                 <div className="flex items-center">
-                    <p className="font-League_Spartan my-4 text-2xl font-semibold tracking-widest text-portfolio-blue">About</p>
+                    <p className="font-League_Spartan my-4 text-xl font-semibold tracking-widest text-portfolio-blue md:text-2xl">About</p>
                     <span className="ml-2 mt-1 h-[1px] w-full bg-portfolio-darkBlue"></span>
                 </div>
                 {about?.map((item) => {
@@ -25,7 +25,7 @@ const About: React.FC = () => {
                         <>
                             <div className="mt-2">
                                 {/* <ScrambleText text={item?.text} className="text-sm font-medium tracking-wider md:text-base" scrambleOptions={null} /> */}
-                                <p className="text-base font-thin tracking-wider text-gray-300 md:text-base md:font-thin">{item?.text}</p>
+                                <p className="text-sm font-thin tracking-wider text-gray-300 md:text-base md:font-thin">{item?.text}</p>
                             </div>
                         </>
                     );

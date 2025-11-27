@@ -39,7 +39,7 @@ const HomePage: React.FC = () => {
         } else {
             setTheme('light');
         }
-    }, []);
+    }, [theme, setTheme]);
 
     return (
         <>

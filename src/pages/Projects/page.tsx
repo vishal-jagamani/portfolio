@@ -29,7 +29,7 @@ const Projects: React.FC = () => {
         <>
             <div className="flex flex-col text-gray-300">
                 <div className="flex items-center">
-                    <p className="font-League_Spartan text-2xl font-bold tracking-widest text-portfolio-blue">Projects</p>
+                    <p className="font-League_Spartan text-xl font-semibold tracking-widest text-portfolio-blue md:text-2xl">Projects</p>
                     <span className="ml-2 mt-1 h-[1px] w-full bg-portfolio-darkBlue"></span>
                 </div>
                 <div className="mt-6 space-y-10">
@@ -42,7 +42,7 @@ const Projects: React.FC = () => {
                                             alt="project-thumbnail-image"
                                             draggable={false}
                                             src={Images?.find((val) => val?.id === item?.id)?.image || ''}
-                                            className="rounded-sm border-[1px] border-portfolio-darkBlue hover:scale-[1.01] hover:cursor-pointer hover:border-portfolio-blue hover:animate-in"
+                                            className="mb-2 rounded-sm border-[1px] border-portfolio-darkBlue hover:scale-[1.01] hover:cursor-pointer hover:border-portfolio-blue hover:animate-in"
                                             onClick={() => (item?.id > 1 ? window.open(item?.projectLink) : null)}
                                         />
                                         {item?.id > 1 ? (
@@ -63,8 +63,10 @@ const Projects: React.FC = () => {
                                         ) : null}
                                     </div>
                                     <div className="md:w-4/6">
-                                        <p className="mb-2 text-xl font-bold tracking-wider group-hover:text-portfolio-blue">{item?.name}</p>
-                                        <p className="text-base font-medium text-primary md:text-base">{item?.description}</p>
+                                        <p className="mb-2 text-lg font-bold tracking-wider group-hover:text-portfolio-blue md:text-xl">
+                                            {item?.name}
+                                        </p>
+                                        <p className="text-sm font-medium text-primary md:text-base">{item?.description}</p>
                                         <div className="my-2 flex flex-wrap">
                                             {item?.techStack?.map((val) => {
                                                 return (
@@ -73,7 +75,7 @@ const Projects: React.FC = () => {
                                                             key={val?.id}
                                                             className="mr-2 mt-2 rounded-full bg-portfolio-darkBlue bg-opacity-60 px-3 py-1 md:mr-3"
                                                         >
-                                                            <p className="text-nowrap text-sm font-semibold text-primary opacity-100 dark:text-portfolio-blue">
+                                                            <p className="text-nowrap text-xs font-semibold text-primary opacity-100 dark:text-portfolio-blue md:text-sm">
                                                                 {val?.name}
                                                             </p>
                                                         </div>
@@ -87,7 +89,9 @@ const Projects: React.FC = () => {
                                                     <>
                                                         <div key={val?.id} className="mr-3 mt-3 flex items-center space-x-2 rounded-full">
                                                             <Circle size={10} fill={val?.color} strokeWidth={0} />
-                                                            <p className="text-nowrap text-sm text-muted-foreground opacity-100">{val?.name}</p>
+                                                            <p className="text-nowrap text-xs text-muted-foreground opacity-100 md:text-sm">
+                                                                {val?.name}
+                                                            </p>
                                                         </div>
                                                     </>
                                                 );

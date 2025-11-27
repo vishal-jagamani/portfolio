@@ -62,11 +62,11 @@ const Header: React.FC = () => {
                 <p className="text-primary">Online.</p>
             </div>
             <div className="space-y-2">
-                <p ref={nameTextRef} className="text-2xl font-bold tracking-[2px] text-gray-400 md:text-3xl md:tracking-[5px]">
+                <p ref={nameTextRef} className="text-xl font-bold tracking-[2px] text-gray-400 md:text-3xl md:tracking-[5px]">
                     VISHAL JAGAMANI
                 </p>
                 <div className="flex items-center">
-                    <p className="font-Geologica -mt-2 text-nowrap text-[2.2rem] font-bold tracking-wide text-portfolio-blue md:text-[2.5rem]">
+                    <p className="font-Geologica -mt-2 text-nowrap text-[1.1rem] font-bold tracking-wide text-portfolio-blue md:text-[2.5rem]">
                         Software Development Engineer - I
                     </p>
                     <span className="ml-4 mt-3 h-[1px] w-full bg-portfolio-blue"></span>
@@ -75,7 +75,7 @@ const Header: React.FC = () => {
             <div className="flex space-x-4">
                 <ScrambleText
                     text={currentTech?.name}
-                    className="font-League_Spartan text-nowrap text-4xl font-bold tracking-widest text-primary md:text-6xl"
+                    className="font-League_Spartan text-nowrap text-3xl font-bold tracking-widest text-primary md:text-6xl"
                     scrambleOptions={{
                         tick: 1,
                         step: 4,
@@ -97,7 +97,7 @@ const Header: React.FC = () => {
                                 <React.Fragment key={item?.index}>
                                     {React.cloneElement(item?.icon, {
                                         strokeWidth: 1.3,
-                                        className: 'text-primary hover:text-portfolio-blue cursor-pointer',
+                                        className: 'text-primary hover:text-portfolio-blue cursor-pointer size-6 md:size-8',
                                         onClick: () => window.open(item?.link),
                                     })}
                                 </React.Fragment>
@@ -108,12 +108,12 @@ const Header: React.FC = () => {
                 <div className="flex space-x-5 md:space-x-10">
                     <Mail
                         size={32}
-                        className="cursor-pointer text-primary hover:text-portfolio-blue"
+                        className="cursor-pointer text-primary hover:text-portfolio-blue size-6 md:size-8"
                         onClick={() => (window.location.href = 'mailto:vishaljagamani20@gmail.com')}
                     />
                     {/* <SquareArrowOutUpRight
                         size={29}
-                        className="cursor-pointer text-primary hover:text-portfolio-blue"
+                        className="cursor-pointer text-primary hover:text-portfolio-blue size-6 md:size-8"
                         onClick={() => window.open(Resume_URL)}
                     /> */}
                 </div>
