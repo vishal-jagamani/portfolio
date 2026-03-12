@@ -127,5 +127,71 @@
                 "color": "#5356FF"
             }
         ]
+    },
+    {
+        "id": 4,
+        "name": "MailSense",
+        "description": "Built a full-stack email aggregator that unifies multiple email accounts into a single inbox. Implemented Gmail and Outlook integrations, secure authentication with Auth0, email sync and management features, and a responsive dashboard for inbox, account, folder, and settings management.",
+        "githubRepoLink": "https://github.com/vishal-jagamani/mailsense",
+        "projectLink": "https://mailsense-app.vercel.app",
+        "techStack": [
+            {
+                "id": 1,
+                "name": "NextJS"
+            },
+            {
+                "id": 2,
+                "name": "ReactJS"
+            },
+            {
+                "id": 3,
+                "name": "TypeScript"
+            },
+            {
+                "id": 4,
+                "name": "Tailwind CSS"
+            },
+            {
+                "id": 5,
+                "name": "NodeJS"
+            },
+            {
+                "id": 6,
+                "name": "Express"
+            },
+            {
+                "id": 7,
+                "name": "MongoDB"
+            },
+            {
+                "id": 8,
+                "name": "Auth0"
+            },
+            {
+                "id": 9,
+                "name": "Gmail API"
+            },
+            {
+                "id": 10,
+                "name": "Outlook API"
+            }
+        ],
+        "languages": [
+            {
+                "id": 1,
+                "name": "JavaScript",
+                "color": "#19A7CE"
+            },
+            {
+                "id": 2,
+                "name": "TypeScript",
+                "color": "#5356FF"
+            },
+            {
+                "id": 3,
+                "name": "Node",
+                "color": "#898121"
+            }
+        ]
     }
 ]

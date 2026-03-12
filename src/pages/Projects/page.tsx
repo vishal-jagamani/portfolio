@@ -1,4 +1,5 @@
 import projects from '@/assets/data/projects.json';
+import MailSense_Image from '@/assets/images/project-mailsense.png';
 import Portfolio_Image from '@/assets/images/project-portfolio.png';
 import Soundtrack_Image from '@/assets/images/project-soundtrack.png';
 import Vinay_Gouri_Portfolio_Image from '@/assets/images/project-vinay-gouri-portfolio.png';
@@ -21,6 +22,11 @@ const Images = [
         id: 3,
         name: 'Vinay Gouri Portfolio',
         image: Vinay_Gouri_Portfolio_Image,
+    },
+    {
+        id: 4,
+        name: 'MailSense',
+        image: MailSense_Image,
     },
 ];
 
