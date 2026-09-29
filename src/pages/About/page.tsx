@@ -2,13 +2,13 @@ import React from 'react';
 
 const about = [
     {
-        text: "I'm a Software Development Engineer with 4+ years of experience in building scalable, user-centric web applications, microservices, and AI-powered workflows. I specialize in developing seamless frontend interfaces across multi-portal architectures, robust Backend-for-Frontend (BFF) layers, and resilient backend services using React, Next.js, Node.js, Express, and TypeScript, backed by distributed databases and cloud services like DynamoDB, AWS and MySQL.",
+        text: `I'm a Software Development Engineer with 3.5+ years of experience in building scalable, user-centric web applications. I specialize in developing seamless frontend interfaces and efficient backend services using React, Node.js, Express, and TypeScript, with strong support from robust databases like MySQL and Elasticsearch.`,
     },
     {
-        text: 'My core skill set includes JavaScript, TypeScript, Node.js, Express, React, and Next.js (App Router), alongside practical experience in LLM provider integration (OpenAI and Gemini APIs) for automated document analysis and human-in-the-loop verification. I am well-versed in building event-driven pipelines (AWS SQS, S3), DynamoDB data modeling, RESTful API design, Strategy and Factory design patterns, unit testing with Jest, and progressive feature delivery using feature flags.',
+        text: `My core skill set includes JavaScript, TypeScript, HTML, CSS, and Python, along with hands-on experience using frameworks and libraries such as ReactJS, Next.js, React Native, Redux/RTK Query, Bootstrap, Node.js, Express, and Flask. I'm well-versed in database management with MySQL and Elasticsearch, and I follow modern development workflows using Git for version control.`,
     },
     {
-        text: "Explore my portfolio to learn more about the systems and applications I've built, the engineering challenges I've tackled, and how I approach solving complex real-world problems through high-reliability software. I'm always open to collaborating on impactful engineering initiatives or joining forward-thinking teams—let's connect!",
+        text: `Explore my portfolio to learn more about the projects I've built, the tools I've worked with, and how I approach solving real-world problems through software. I'm always open to collaborating on meaningful projects or joining forward-thinking teams—let’s connect!`,
     },
 ];
 
