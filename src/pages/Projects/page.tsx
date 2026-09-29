@@ -44,27 +44,29 @@ const Projects: React.FC = () => {
                             <>
                                 <div className="group flex w-full flex-col justify-between md:flex-row">
                                     <div className="mt-6 flex h-full w-full flex-col justify-between px-1 md:w-2/6 md:px-10">
-                                        <Image
-                                            alt="project-thumbnail-image"
-                                            draggable={false}
-                                            src={Images?.find((val) => val?.id === item?.id)?.image || ''}
-                                            className="mb-2 rounded-sm border-[1px] border-portfolio-darkBlue hover:scale-[1.01] hover:cursor-pointer hover:border-portfolio-blue hover:animate-in"
-                                            onClick={() => (item?.id > 1 ? window.open(item?.projectLink) : null)}
-                                        />
+                                        {Images?.find((val) => val?.id === item?.id)?.image && (
+                                            <Image
+                                                alt="project-thumbnail-image"
+                                                draggable={false}
+                                                src={Images?.find((val) => val?.id === item?.id)?.image || ''}
+                                                className="mb-2 rounded-sm border-[1px] border-portfolio-darkBlue hover:scale-[1.01] hover:cursor-pointer hover:border-portfolio-blue hover:animate-in"
+                                                onClick={() => (item?.id > 1 ? window.open(item?.projectLink) : null)}
+                                            />
+                                        )}
                                         {item?.id > 1 ? (
                                             <div className="my-4 flex flex-row justify-between px-20 md:px-4">
-                                                {item?.githubRepoLink ? (
+                                                {item?.githubRepoLink && (
                                                     <GitFork
                                                         className="cursor-pointer hover:text-portfolio-blue"
                                                         onClick={() => window.open(item?.githubRepoLink)}
                                                     />
-                                                ) : (
-                                                    <div></div>
                                                 )}
-                                                <SquareArrowOutUpRight
-                                                    className="cursor-pointer hover:text-portfolio-blue"
-                                                    onClick={() => window.open(item?.projectLink)}
-                                                />
+                                                {item?.projectLink && (
+                                                    <SquareArrowOutUpRight
+                                                        className="cursor-pointer hover:text-portfolio-blue"
+                                                        onClick={() => window.open(item?.projectLink)}
+                                                    />
+                                                )}
                                             </div>
                                         ) : null}
                                     </div>

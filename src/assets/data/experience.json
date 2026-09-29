@@ -1,12 +1,17 @@
 [
     {
         "id": 3,
-        "companyName": "Nineleaps",
+        "companyName": "Nineleaps (Client - Dataflow)",
         "role": "Software Development Engineer - I",
         "duration": "July 2025 - Present",
         "description": [
-            "Developed and maintained full-stack web applications using Node.js, Express, TypeScript, and React.",
-            "Built and optimized RESTful APIs with Express"
+            "Owned full-stack feature delivery on the Agent Automation platform across React portals, an Express/TypeScript BFF layer, and Node.js microservices.",
+            "Built AI-assisted verification workflows, leveraging LLMs to extract attribute data and surface real-time quality nudges to operations performers.",
+            "Engineered automated document insufficiency detection and self-service features, providing real-time document validation and instant feedback across multiple portals.",
+            "Architected a dedicated document validation microservice using Strategy and Factory patterns, integrating a multi-provider LLM abstraction layer (OpenAI).",
+            "Designed and delivered an event-driven analytics pipeline using DynamoDB, AWS SQS, and S3 to monitor and report agent performance.",
+            "Implemented frontend resilience patterns and bounded polling mechanisms to handle asynchronous workflows, releasing features progressively behind feature flags.",
+            "Diagnosed and resolved critical production incidents using CloudWatch Logs Insights, executing timely data mitigations to ensure platform reliability."
         ],
         "techStack": [
             {
@@ -19,19 +24,35 @@
             },
             {
                 "id": 3,
-                "name": "NodeJS"
+                "name": "Typescript"
             },
             {
                 "id": 4,
-                "name": "Express"
+                "name": "NodeJS"
             },
             {
                 "id": 5,
-                "name": "Typescript"
+                "name": "Express"
             },
             {
                 "id": 6,
                 "name": "DynamoDB"
+            },
+            {
+                "id": 7,
+                "name": "AWS (S3/SQS/CDK)"
+            },
+            {
+                "id": 8,
+                "name": "OpenAI API"
+            },
+            {
+                "id": 9,
+                "name": "CloudWatch"
+            },
+            {
+                "id": 10,
+                "name": "Jest"
             }
         ]
     },
